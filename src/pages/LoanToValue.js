@@ -35,7 +35,7 @@ const LoanToValue = () => {
 
   return (
     <div className="login-inputs">
-      <h2>LOAN TO VALUE CALCULATOR</h2>
+      <h3>Deposit value</h3>
       <input
         className="input-deposit-value"
         type="text"
@@ -43,6 +43,7 @@ const LoanToValue = () => {
         onChange={(e) => setDepositValue(e.target.value)}
         placeholder="Deposit Value"
       />
+      <h3>Purchase Price</h3>
       <input
         className="input-purchase-price"
         type="text"
